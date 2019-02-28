@@ -1,0 +1,42 @@
+.brad-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-right: 5%;
+}
+
+#brad {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+#face, #jaw {
+  height: 250px;
+  width: auto;
+}
+
+#face {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#jaw {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.animating {
+  animation: talking 0.3s infinite;
+}
+
+@keyframes talking {
+  0%   { top: 0; }
+  50%  { top: 5%; }
+  100% { top: 0; }
+}
