@@ -5,9 +5,6 @@ var SoundFiles = {
     var filename = 'brad/' + sound + '.mp3'
     var audio = new Audio(filename)
 
-    console.log('playing: ' + filename)
-    audio.play();
-
     return audio
   }
 }
